@@ -1,1 +1,1 @@
-This is my heavily customised & personalised iteration of a blog template provided by Astro JavaScript web framework.
+This is my heavily customised & personalised iteration of a blog template provided by the Astro JavaScript web framework.
