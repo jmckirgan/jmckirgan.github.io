@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'Contact';
+const description = 'Please do reach out if you are interested in discussing how we can work together on your Salesforce org.';
+const permalink = `${Astro.site.href}about`;
+---
+
+<BaseLayout title={title} description={description} permalink={permalink} current="contact">
+  <div class="container">
+    <h1>Contact</h1>
+    <figure class="about-image">
+      <img src="/assets/me_in_jetplane.jpg" alt="Me sitting in an RAF Tornado!" width="330">
+      <figcaption>
+       <em>Me in a Tornado jet.</em>
+      </figcaption>
+    </figure>
+  
+    <h2>Contact Me</h2>
+  <p>Need to put a contact form in here.</p>  
+
+  <h2>Socials</h2>
+  <p>I will put social media links/info in here shortly. </p>
+  
+  </div>
+</BaseLayout>
+
+<style>
+  .about-image {
+    float: right;
+    margin: -3em -7em 2em 2em;
+    max-width: 300px;
+  }
+
+  .about-image img {
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+  }
+
+  @media (max-width: 1020px) {
+    .about-image {
+      float: none;
+      margin: 0 auto 2em;
+    }
+  }
+</style>
