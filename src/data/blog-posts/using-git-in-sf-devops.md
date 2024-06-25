@@ -1,7 +1,7 @@
 ---
 title: Benefits of using Git for Salesforce DevOps
 publishDate: 25 Jun 2024
-description: Welcome to my blog.
+description: Why you should definitely incorporate the use of Git version control in your Salesforce projects.
 ---
 
 Git provides a robust version control system that integrates well with Salesforce development and deployment processes. Here's a high-level overview of how you can leverage Git in your Salesforce DevOps workflow:
