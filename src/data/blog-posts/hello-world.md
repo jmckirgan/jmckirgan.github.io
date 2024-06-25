@@ -1,11 +1,7 @@
 ---
 title: Hello World 👋
 publishDate: 24 Jun 2024
-description: Every blog starts with a single post. This is yours. Make it great.
+description: Welcome to my blog.
 ---
 
-![Illustration of woman using a meditation app](/assets/blog/casual-life-3d-meditation-crystal.webp)
-
-This post intentionally left blank.
-
-Write what you want.
+Hello world! I hope to mainly blog about my experiences using and building on the Salesforce platform - but I might write about other topics too as the mood takes me.
