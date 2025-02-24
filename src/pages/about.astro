@@ -1,14 +1,33 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
-<Layout
-	title="Hello, I'm Jonny"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('February 19 2025')}
-	
->
-	
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>About</h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales felis sit amet lectus dapibus, vitae porttitor dolor fringilla. Donec consequat nisl sed nisi blandit, ac suscipit eros vulputate. Ut consequat magna quis mauris porttitor varius. Proin dictum malesuada tortor ut vehicula. Nam massa mi, efficitur sit amet felis vitae, commodo imperdiet nunc. Phasellus ac ante rutrum, ornare velit ut, scelerisque enim. In vulputate porttitor semper.
+
+
+			</p>
+			
+			
+		</main>
+		<Footer />
+	</body>
+</html>
 
 	
 
